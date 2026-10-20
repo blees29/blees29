@@ -50,3 +50,30 @@ const bode = {
 ### 🟥 My Roblox Games
 
 - ADD-YOUR-ROBLOX-GAME-LINKS-HERE
+
+---
+
+## 🏐 Off the Clock
+
+| 🏐 Volleyball | 🚗 Rocket League | 🎮 Game Dev | 🎨 Art |
+|:---:|:---:|:---:|:---:|
+
+### 🕹️ My Top 5 Games
+
+1. ⛏️ **Minecraft**
+2. 🗡️ **Blasphemous**
+3. 🚗 **Rocket League**
+4. 🗺️ **The Legend of Zelda: Breath of the Wild**
+5. 🐉 **Elden Ring**
+
+---
+
+## 📊 GitHub Stats
+
+<!-- github-readme-stats & streak-stats are free public services; if a card doesn't load, the service is rate-limited, not broken -->
+<p align="center">
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=blees29&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub stats"/>
+  <img height="165" src="https://streak-stats.demolab.com?user=blees29&theme=tokyonight&hide_border=true" alt="GitHub streak"/>
+</p>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:3B82F6,100:0A2A66&height=120&section=footer" width="100%" alt="footer wave"/>
