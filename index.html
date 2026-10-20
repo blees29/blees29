@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bode Lees</title>
+<meta name="description" content="Bode Lees: student, volleyball player and game builder.">
+<style>
+  :root {
+    --bg: #F4F8FF; --surface: #FFFFFF; --text: #0B1B3A; --muted: #4A5B7A;
+    --blue: #2563EB; --blue-deep: #0A2A66; --blue-soft: #DCE8FF; --border: #D5E1F5;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #071226; --surface: #0E1F3D; --text: #EAF1FF; --muted: #A3B4D3;
+      --blue: #60A5FA; --blue-deep: #0A2A66; --blue-soft: #15305E; --border: #1F3A68;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--bg); color: var(--text);
+    font: 17px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  }
+  a { color: var(--blue); }
+  .wrap { max-width: 880px; margin: 0 auto; padding: 0 20px; }
+
+  header {
+    background: linear-gradient(135deg, var(--blue-deep), #3B82F6);
+    color: #fff; padding: 72px 0 96px;
+    clip-path: ellipse(120% 100% at 50% 0%);
+  }
+  header h1 { font-size: clamp(40px, 8vw, 64px); margin: 0; letter-spacing: -0.02em; }
+  header p { font-size: 20px; margin: 6px 0 0; opacity: 0.92; }
+  .chips { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 22px; }
+  .chips span {
+    background: rgba(255,255,255,0.16); border: 1px solid rgba(255,255,255,0.3);
+    padding: 4px 12px; border-radius: 999px; font-size: 15px;
+  }
+
+  main { margin-top: -40px; padding-bottom: 60px; }
+  section {
+    background: var(--surface); border: 1px solid var(--border); border-radius: 16px;
+    padding: 24px 26px; margin-bottom: 20px;
+  }
+  h2 { margin: 0 0 12px; font-size: 24px; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 14px; }
+  .card { background: var(--blue-soft); border-radius: 12px; padding: 16px 18px; }
+  .card h3 { margin: 0 0 6px; font-size: 18px; }
+  .card p { margin: 0; color: var(--muted); font-size: 15.5px; }
+  ol.games { margin: 0; padding-left: 1.4em; }
+  ol.games li { margin: 6px 0; font-weight: 500; }
+  ul.plain { margin: 0; padding-left: 1.2em; }
+  footer { text-align: center; color: var(--muted); font-size: 14px; padding: 0 0 40px; }
+</style>
+</head>
+<body>
+  <header>
+    <div class="wrap">
+      <h1>Hi, I'm Bode 👋</h1>
+      <p>Student • Volleyball Player • Builder</p>
+      <div class="chips">
+        <span>🏐 Volleyball</span><span>🚗 Rocket League</span>
+        <span>🎮 Unreal Engine</span><span>🟥 Roblox</span><span>🎨 Art</span>
+      </div>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section>
+      <h2>About me</h2>
+      <p>I'm a student at Pacifica Christian High School. My favorite classes are
+        <b>Technology Foundations</b> and <b>Math</b>. When I'm not playing volleyball
+        or Rocket League, I'm making games or working on art.</p>
+    </section>
+
+    <section>
+      <h2>Things I've built</h2>
+      <div class="grid">
+        <div class="card">
+          <h3>🧠 My Zettelkasten</h3>
+          <p>An Obsidian "second brain" of linked notes. Python scripts sync it with
+            Canvas and Google Calendar every morning and draw it as a map.</p>
+        </div>
+        <div class="card">
+          <h3>🟥 Roblox games</h3>
+          <p>Games I build and script in Roblox Studio.</p>
+          <!-- Add a link for each game, like: <p><a href="https://www.roblox.com/games/...">Game name</a></p> -->
+        </div>
+        <div class="card">
+          <h3>🎮 Unreal Engine</h3>
+          <p>Games I'm making in Unreal Engine.</p>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Top 5 games</h2>
+      <ol class="games">
+        <li>⛏️ Minecraft</li>
+        <li>🗡️ Blasphemous</li>
+        <li>🚗 Rocket League</li>
+        <li>🗺️ The Legend of Zelda: Breath of the Wild</li>
+        <li>🐉 Elden Ring</li>
+      </ol>
+    </section>
+
+    <section>
+      <h2>Currently learning</h2>
+      <ul class="plain">
+        <li>git and GitHub</li>
+        <li>Python</li>
+        <li>Unreal Engine</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <a href="https://github.com/blees29">github.com/blees29</a>
+  </footer>
+</body>
+</html>
