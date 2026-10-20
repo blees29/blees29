@@ -21,3 +21,32 @@ const bode = {
   favoriteColor: "blue 💙",
 };
 ```
+
+- 🔭 Currently building: my Zettelkasten and my next game
+- 🌱 Currently learning: git, Python, and Unreal Engine
+- 💬 Ask me about: game design, Rocket League, or how to link your notes together
+
+---
+
+## 🧰 Tools I Use
+
+<!-- Skill icons: https://skillicons.dev -->
+<p align="center">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=py,lua,unreal,html,css,js,git,github,vscode,obsidian&perline=10" alt="Skill icons"/>
+  </a>
+</p>
+
+---
+
+## 🛠️ Things I've Built
+
+| Project | What it does |
+|---|---|
+| 🧠 **My Zettelkasten** | An Obsidian "second brain" of linked notes. Python scripts sync it with Canvas and Google Calendar every morning and draw it as a map in Obsidian Canvas. |
+| 🟥 **Roblox games** | Games I build and script in Roblox Studio (links below) |
+| 🎮 **Unreal Engine projects** | Games I'm making in Unreal Engine |
+
+### 🟥 My Roblox Games
+
+- ADD-YOUR-ROBLOX-GAME-LINKS-HERE
